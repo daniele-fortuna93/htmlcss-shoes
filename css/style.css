@@ -21,6 +21,7 @@ nav a{
   text-decoration: none;
   display: inline-block;
   background-color: white;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
   color: black;
   width: 40px;
   height: 40px;
@@ -32,9 +33,6 @@ nav a{
 .container{
   height: 100vh;
   position: relative;
-}
-.first_shoe{
-  background-color: red;
 }
 .central_container{
   text-align: center;
@@ -50,6 +48,17 @@ nav a{
 }
 .central_container h2{
   font-size: 40px;
+}
+.first_shoe{
+  background-color: red;
   color: yellow;
+}
+.second_shoe{
+  background-color: green;
+  color: yellow;
+}
+.third_shoe{
+  background-color: yellow;
+  color: green;
 }
 /* /corpo centrale */
