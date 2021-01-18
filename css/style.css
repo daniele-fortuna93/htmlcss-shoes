@@ -4,3 +4,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+nav{
+  position: fixed;
+  right: 0;
+  margin: 20px 10px 0 0;
+  z-index: 4;
+}
+nav a{
+  border-radius: 50%;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.container{
+  height: 100vh;
+  position: relative;
+}
+.first_shoe{
+  background-color: red;
+}
+.central_container{
+  text-align: center;
+  text-transform: uppercase;
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.central_container img{
+  width: 100%;
+}
+.central_container h2{
+  font-size: 50px;
+}
