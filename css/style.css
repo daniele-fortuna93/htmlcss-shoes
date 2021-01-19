@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* scroll lento della pagina */
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Rubik Mono One', sans-serif;
 }
@@ -49,15 +53,15 @@ nav a{
 .central_container h2{
   font-size: 2.1vw;
 }
-.first_shoe{
+#superga{
   background-color: red;
   color: yellow;
 }
-.second_shoe{
+#tommy_hilfiger{
   background-color: green;
   color: yellow;
 }
-.third_shoe{
+#converse{
   background-color: yellow;
   color: green;
 }
